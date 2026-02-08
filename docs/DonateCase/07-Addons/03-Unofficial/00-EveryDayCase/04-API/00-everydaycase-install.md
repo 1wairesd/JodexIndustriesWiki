@@ -16,15 +16,14 @@ import TabItem from '@theme/TabItem';
 ## Maven
 ```xml title="Maven"
 <repository>
-    <id>JodexIndustries</id>
-    <name>JodexIndustries Repo</name>
-    <url>https://repo.jodex.xyz/releases</url>
+    <id>jitpack.io</id>
+    <url>https://jitpack.io</url>
 </repository>
 
 <dependency>
     <groupId>com.wairesd.dceverydaycase</groupId>
     <artifactId>api</artifactId>
-    <version>2.0</version>
+    <version>2.2</version>
     <scope>provided</scope>
 </dependency>
 ```
@@ -32,10 +31,10 @@ import TabItem from '@theme/TabItem';
 ## Gradle
 ```gradle title="Gradle"
 maven {
-    name "JodexIndustries"
-    url "https://repo.jodex.xyz/releases"
+    name = "jitpack.io"
+    url = "https://jitpack.io"
 }
 
 dependencies {
-    compileOnly("com.wairesd.dceverydaycase:api:2.0")
+    compileOnly("com.wairesd.dceverydaycase:api:2.2")
 }
